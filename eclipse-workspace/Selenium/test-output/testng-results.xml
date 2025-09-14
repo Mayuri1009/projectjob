@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-06T22:56:52 IST" name="Default suite" finished-at="2025-08-06T22:57:37 IST" duration-ms="45090">
+    <groups>
+    </groups>
+    <test started-at="2025-08-06T22:56:52 IST" name="Default test" finished-at="2025-08-06T22:57:37 IST" duration-ms="45090">
+      <class name="Testng.Testng3">
+        <test-method is-config="true" signature="test()[pri:0, instance:Testng.Testng3@2de56eb2]" started-at="2025-08-06T22:56:52 IST" name="test" finished-at="2025-08-06T22:56:56 IST" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Testng.Testng3@2de56eb2]" started-at="2025-08-06T22:56:56 IST" name="login" data-provider="dataset" finished-at="2025-08-06T22:57:16 IST" duration-ms="20572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayuri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mayuri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Testng.Testng3@2de56eb2]" started-at="2025-08-06T22:57:16 IST" name="login" data-provider="dataset" finished-at="2025-08-06T22:57:37 IST" duration-ms="20446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bute]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bute]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Testng.Testng3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
