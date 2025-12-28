@@ -1,0 +1,16 @@
+Successfully created Logfile.txt
+Step 1:Clearing stale data with page refresh
+Step 2:finding x path for //label[@id='teen']and clicking 
+Step 3:finding x path for //label[@class='teeth-desc gap-desc']and clicking 
+Step 4:Selecting value from dropdown
+Step 5:Filling data for all fields 
+Step 6:Clicking on submit button 
+
+
+**********************************************************************
+
+Final Result of testcase 10: Pass 
+
+
+**********************************************************************
+

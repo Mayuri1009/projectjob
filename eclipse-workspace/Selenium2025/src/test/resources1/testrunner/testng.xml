@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="3" thread-count="3" parallel="tests">
+
+
+	<test name="Google Test">
+<parameter name="url" value="https://www.google.com" />
+
+		<classes>
+			<class name="testng.google1" />				
+		</classes>
+	</test>
+
+
+	<test name="OrangeHRM Test">
+		<parameter name="url"
+			value="https://www.orangehrm.com/30-day-free-trial/" />
+
+
+		<classes>
+			<class name="testng.orangehrm" />
+		</classes>
+	</test>
+
+
+	<test name="OpenCart Test">
+
+<parameter name="url"
+			value="https://naveenautomationlabs.com/opencart/index.php?route=account/login" />
+
+		<classes>
+			<class name="testng.opencart" />
+		</classes>
+	</test>
+
+
+</suite>
+
+
+
